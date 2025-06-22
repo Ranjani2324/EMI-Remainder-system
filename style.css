@@ -1,0 +1,171 @@
+/* === Animated Background Symbols === */
+/* === Dark Background with Animated Floating Symbols === */
+body {
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* dark gradient */
+  color: #f1f1f1;
+  overflow-x: hidden;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Floating emoji animation */
+.background-symbol {
+  position: absolute;
+  font-size: 32px;
+  opacity: 0.08;
+  animation: floatSymbols 20s linear infinite;
+  user-select: none;
+  pointer-events: none;
+  color: white;
+}
+
+@keyframes floatSymbols {
+  0% {
+    transform: translateY(100vh) rotate(0deg);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateY(-120vh) rotate(360deg);
+    opacity: 0.1;
+  }
+}
+
+/* Reset default margins/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background for the whole page */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container for everything */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Titles */
+h1, h2 {
+  text-align: center;
+  color: #00796b;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+form label {
+  font-weight: bold;
+  color: #37474f;
+}
+
+form input, form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Submit button */
+form button {
+  background-color: #00796b;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #004d40;
+}
+
+/* EMI Cards */
+.emi-card {
+  background-color: #f0fdf4;
+  border-left: 5px solid #26a69a;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+/* Completed EMIs look faded */
+.emi-card.completed {
+  background-color: #f9f9f9;
+  border-left: 5px solid #ccc;
+  opacity: 0.6;
+}
+
+/* Details section inside each card */
+.details {
+  margin-top: 15px;
+  padding-left: 10px;
+  border-left: 3px solid #bbb;
+}
+
+/* Buttons inside EMI cards */
+.emi-card button {
+  margin-top: 10px;
+  background-color: #00838f;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.emi-card button:hover {
+  background-color: #006064;
+}
+.button-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#clearAll {
+  background-color: #d32f2f;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#clearAll:hover {
+  background-color: #b71c1c;
+}
+
+/* 🌙 Dark themed container and elements */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #1e2a36;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* ... rest of your dark styles ... */
+
+
+
